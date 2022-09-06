@@ -12,7 +12,7 @@ for (var i = 0; i <= 8; i++) {
     var parentEl = $('<div class = "row mb-1 time-block" data-id ="' + i + '">');
     var idEl = $('<div class = "col-1 hour py-4">' + timeConv[i] + '</div>');
     var textEl = $('<textarea class = "col-10 description">');
-    var btnEl = $('<buttin class = "col-1 saveBtn py-4"><i class="fas fa-save"></i></button>');
+    var btnEl = $('<button class = "col-1 saveBtn py-4"><i class="fas fa-save"></i></button>');
     parentEl.append(idEl, textEl, btnEl);
     $('.container').append(parentEl);
     // adding the color schema for past, present, future
